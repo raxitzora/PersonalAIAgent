@@ -2,6 +2,7 @@ import OpenAI from "openai";
 import { execSync } from "node:child_process";
 import { z } from "zod";
 
+
 const client = new OpenAI({
   apiKey: "AIzaSyBazNCTEL2Jc4aiVtTRGKtGduR2SWFIMxg",
   baseURL: "https://generativelanguage.googleapis.com/v1beta/openai/",
