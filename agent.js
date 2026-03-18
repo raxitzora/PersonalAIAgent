@@ -6,6 +6,7 @@ const client = new OpenAI({
   baseURL: "https://generativelanguage.googleapis.com/v1beta/openai/",
 });
 
+
 // tools
 function executeCommand(cmd = "") {
   const result = execSync(cmd);
