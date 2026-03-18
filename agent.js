@@ -7,6 +7,8 @@ const client = new OpenAI({
 });
 
 
+
+
 // tools
 function executeCommand(cmd = "") {
   const result = execSync(cmd);
