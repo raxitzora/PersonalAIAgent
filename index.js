@@ -12,8 +12,6 @@ app.post("/message",async (req,res)=>{
     const history = await run(message);
     return res.json({message:history})
 })
-
-
 app.listen(PORT,()=>{
     console.log(`Server is running on port ${PORT}`);
   
