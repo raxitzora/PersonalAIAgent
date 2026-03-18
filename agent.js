@@ -12,6 +12,8 @@ function executeCommand(cmd = "") {
   return result.toString();
 }
 
+
+
 const functionMapping = {
   executeCommand,
 };
