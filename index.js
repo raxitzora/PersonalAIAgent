@@ -7,9 +7,6 @@ const PORT  = process.env.PORT ?? 8000;
 
 app.use(express.json());
 
-
-
-
 app.post("/message",async (req,res)=>{
     const message = req.body.message;
     const history = await run(message);
